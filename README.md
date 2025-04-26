@@ -5,7 +5,7 @@ The system reads pixel data from a handwritten digits dataset, processes the dat
 
 The goal is to highlight key concepts of KNN classification, including data preprocessing, model training, evaluation, and result visualization.
 
-## Technologies and Libraries
+## Technologies and Libraries ## Installation 
  Python 3.x
  Jupyter Notebook
  NumPy
@@ -30,6 +30,12 @@ Handwritten-Digit-Recognition-KNN/
 
 # How it Works
 
+1.Load the handwritten digit dataset from CSV files
+2.Normalize the pixel values for better model performance.
+3.Split the data into training and testing sets.
+4.Train a KNN classifier using the training data.
+5.Predict labels for the test data.
+6.Evaluate the model's accuracy.
 
 ## Image (as pixels) ➔ Normalize ➔ KNN Model ➔ Predict Digit ➔ Measure Accuracy
 
