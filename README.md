@@ -1,4 +1,4 @@
-# handwritten-digit-recognnition-using-knn
+# handwritten-digit-recognition-using-knn
 
 This project presents a functional module that demonstrates the K-Nearest Neighbors (KNN) algorithm applied to handwritten digit classification.  
 The system reads pixel data from a handwritten digits dataset, processes the data, trains a KNN model, and predicts unseen samples accurately.
@@ -21,12 +21,20 @@ The goal is to highlight key concepts of KNN classification, including data prep
 
  Download the dataset files: mnist_train.csv and mnist_test.csv
 
-
+## Project Structure
 Handwritten-Digit-Recognition-KNN/
 ├── Handwritten Digit Recognition using KNN.ipynb  
 ├── mnist_train.csv                                
 ├── mnist_test.csv                                 
 ├── README.md     
+
+# How it Works
+
+
+## Image (as pixels) ➔ Normalize ➔ KNN Model ➔ Predict Digit ➔ Measure Accuracy
+
+# - Model Accuracy: ~98% on the test dataset.
+
 
 ![image](https://github.com/user-attachments/assets/6de5ddda-e37c-4a09-9c3b-75da97bc6247)
 
