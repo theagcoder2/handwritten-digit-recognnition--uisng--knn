@@ -1,4 +1,4 @@
-# handwritten-digit-recognnition--uisng--knn
+# handwritten-digit-recognnition-using-knn
 
 This project presents a functional module that demonstrates the K-Nearest Neighbors (KNN) algorithm applied to handwritten digit classification.  
 The system reads pixel data from a handwritten digits dataset, processes the data, trains a KNN model, and predicts unseen samples accurately.
